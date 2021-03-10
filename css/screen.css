@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Raleway:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pathway+Gothic+One&family=Raleway:wght@200;300;500&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -196,6 +199,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background-color: #676B63;
 }
 
 label {
@@ -203,6 +207,59 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+
+
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.779em;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+p {
+  font-size: 1em;
+}
+
+form {
+  background-color: #EFF7E4;
+  padding: 15px;
+}
+
+body #input-submit {
+  font-size: 1.667em;
+  margin: 10px;
+}
+
+input {
+  border-radius: 4px;
+  border-style: none;
+  
+}
+
+#email {
+  color: black;
+  background-color: #C9D0C0;
+}
+
+#submit {
+  color: white;
+  background-color: #A5AB9D;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#input-age-verification {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  
+}
+
 
 
 /* ===== STATE STYLES ======= */
